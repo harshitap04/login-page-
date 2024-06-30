@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
     <div class="h-screen w-screen bg-slate-800 flex justify-center items-center">
         <div class="w-[60%] h-[70%] bg-white rounded-lg flex">
 
-            <div class="w-[50%] h-full p-20 flex flex-col  justify-center items-center m-1">
+            <div class="w-[50%] h-full p-20 flex flex-col  justify-center items-center m-1 ">
                 <div class="font-extrabold text-center">LOGIN</div>
                 <div>
                     <p class="text-xs text-gray-500">
@@ -18,11 +19,11 @@
                      </p></div>
                 <div class="flex m-2 gap-1 w-full border p-1 rounded-lg border-black bg-indigo-100">
                     <img class="w-4 h-4 pt-1" src="./assets/Vector.png" alt="">
-                    <input class="bg-indigo-100 text-sm text-black" placeholder=" usersname">
+                    <input class="bg-indigo-100 outline-none text-sm border-none  w-full text-black" placeholder=" usersname">
                 </div>
                 <div class="flex m-2 gap-1 w-full border p-1 rounded-lg bg-indigo-100">
                     <img class="w-4 h-4 pt-1" src="./assets/Frame.png" alt="">
-                    <input class="bg-indigo-100 text-sm text-black" placeholder=" Password">
+                    <input class="bg-indigo-100 outline-none text-sm w-full border-none text-black" placeholder=" Password ">
                 </div>
                 <div class="w-[100px] text-white font-bold bg-indigo-500 text-xs m-1 py-2 px-auto text-center rounded-xl ">
                     Login Now
@@ -43,20 +44,26 @@
                     </div> 
                 </div> 
             </div>
-            <div class="w-[50%] h-full object-fill bg-gradient-to-r from-indigo-500 to-indigo-400 opacity-90 flex items-center justify-center  " style="background-image:url(./assets/Rectangle\ 4.png);">a
+            <div class="w-[50%] h-full object-fill bg-gradient-to-r rounded-lg from-indigo-500 to-indigo-400 opacity-90 flex items-center justify-center relative " style="background-image:url(./assets/Rectangle\ 4.png); ">
                 
-                    <div class="  h-[50%] w-[50%] border rounded-lg bg-indigo-200 items-start  relative ">
-                        <p class=" pt-3font-bold text-md text-white text-center opacity-1 ">Very good
+                    <div class=" h-[57%] w-[59%] rounded-lg bg-indigo-200 border opacity-45 p-20  ">
+                    </div>
+                        
+                      <div class="absolute">
+                        <p class=" w-32  text-xl absolute bottom-20 font-bold  text-white text-center left-20">Very good
                             works are
                             waiting for 
                             you Login
                             Now!!!</p>
-                            <div>
-                                <img  class="w-[400px]   " src="./assets/women with tab 1.png" alt="">
-                            </div>     
-                    </div>
+                            <div class="  ">
+                                <img  class=" w-[400px] " src="./assets/women with tab 1.png" alt="" >
+                            </div>   
+                      </div> 
+                      
+                      <div class="bg-white absolute z-50 left-16 bottom-[8rem]  w-12 h-12 rounded-full text-center flex items-center justify-center">
+                        <img class="w-8" src="./assets/thunderbolt 1.png " alt="">
+                      </div>
                    
-                
             </div>
         </div>
 
